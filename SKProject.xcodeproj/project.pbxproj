@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D74AB13C1B50C590003E1792 /* UIColor+FromHex.m in Sources */ = {isa = PBXBuildFile; fileRef = D74AB13B1B50C590003E1792 /* UIColor+FromHex.m */; };
+		D74AB13F1B50C599003E1792 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D74AB13E1B50C599003E1792 /* UIColor+Extension.m */; };
+		D74AB1461B50C5B5003E1792 /* SKImageWithLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D74AB1411B50C5B5003E1792 /* SKImageWithLabel.m */; };
+		D74AB1471B50C5B5003E1792 /* NoticeContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = D74AB1431B50C5B5003E1792 /* NoticeContentView.m */; };
+		D74AB1481B50C5B5003E1792 /* SKPopoverListView.m in Sources */ = {isa = PBXBuildFile; fileRef = D74AB1451B50C5B5003E1792 /* SKPopoverListView.m */; };
+		D74AB14B1B50C5BD003E1792 /* UIButton+UIButtonImageWithLable.m in Sources */ = {isa = PBXBuildFile; fileRef = D74AB14A1B50C5BD003E1792 /* UIButton+UIButtonImageWithLable.m */; };
 		D76C09E31B44D90E00747FC3 /* SKObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D76C09E21B44D90E00747FC3 /* SKObject.m */; };
 		D76C09E61B44D92600747FC3 /* SKButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D76C09E51B44D92600747FC3 /* SKButton.m */; };
 		D76C09E91B44D93700747FC3 /* SKLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D76C09E81B44D93700747FC3 /* SKLabel.m */; };
@@ -38,6 +44,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D74AB13A1B50C590003E1792 /* UIColor+FromHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FromHex.h"; sourceTree = "<group>"; };
+		D74AB13B1B50C590003E1792 /* UIColor+FromHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FromHex.m"; sourceTree = "<group>"; };
+		D74AB13D1B50C599003E1792 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		D74AB13E1B50C599003E1792 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		D74AB1401B50C5B5003E1792 /* SKImageWithLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKImageWithLabel.h; sourceTree = "<group>"; };
+		D74AB1411B50C5B5003E1792 /* SKImageWithLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKImageWithLabel.m; sourceTree = "<group>"; };
+		D74AB1421B50C5B5003E1792 /* NoticeContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoticeContentView.h; sourceTree = "<group>"; };
+		D74AB1431B50C5B5003E1792 /* NoticeContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoticeContentView.m; sourceTree = "<group>"; };
+		D74AB1441B50C5B5003E1792 /* SKPopoverListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPopoverListView.h; sourceTree = "<group>"; };
+		D74AB1451B50C5B5003E1792 /* SKPopoverListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPopoverListView.m; sourceTree = "<group>"; };
+		D74AB1491B50C5BD003E1792 /* UIButton+UIButtonImageWithLable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+UIButtonImageWithLable.h"; sourceTree = "<group>"; };
+		D74AB14A1B50C5BD003E1792 /* UIButton+UIButtonImageWithLable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+UIButtonImageWithLable.m"; sourceTree = "<group>"; };
 		D76C09E11B44D90E00747FC3 /* SKObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKObject.h; sourceTree = "<group>"; };
 		D76C09E21B44D90E00747FC3 /* SKObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKObject.m; sourceTree = "<group>"; };
 		D76C09E41B44D92600747FC3 /* SKButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKButton.h; sourceTree = "<group>"; };
@@ -196,6 +214,18 @@
 				D76C09F91B44DAB800747FC3 /* TimeUtil.m */,
 				D76C0A021B44DF6D00747FC3 /* SKBannerView.h */,
 				D76C0A031B44DF6D00747FC3 /* SKBannerView.m */,
+				D74AB13A1B50C590003E1792 /* UIColor+FromHex.h */,
+				D74AB13B1B50C590003E1792 /* UIColor+FromHex.m */,
+				D74AB13D1B50C599003E1792 /* UIColor+Extension.h */,
+				D74AB13E1B50C599003E1792 /* UIColor+Extension.m */,
+				D74AB1401B50C5B5003E1792 /* SKImageWithLabel.h */,
+				D74AB1411B50C5B5003E1792 /* SKImageWithLabel.m */,
+				D74AB1421B50C5B5003E1792 /* NoticeContentView.h */,
+				D74AB1431B50C5B5003E1792 /* NoticeContentView.m */,
+				D74AB1441B50C5B5003E1792 /* SKPopoverListView.h */,
+				D74AB1451B50C5B5003E1792 /* SKPopoverListView.m */,
+				D74AB1491B50C5BD003E1792 /* UIButton+UIButtonImageWithLable.h */,
+				D74AB14A1B50C5BD003E1792 /* UIButton+UIButtonImageWithLable.m */,
 			);
 			path = SKTools;
 			sourceTree = "<group>";
@@ -303,9 +333,14 @@
 				D76C09FD1B44DAB800747FC3 /* StringUtil.m in Sources */,
 				D76C09EF1B44DA7B00747FC3 /* SKUserDefaults.m in Sources */,
 				D76C09E31B44D90E00747FC3 /* SKObject.m in Sources */,
+				D74AB13F1B50C599003E1792 /* UIColor+Extension.m in Sources */,
+				D74AB1461B50C5B5003E1792 /* SKImageWithLabel.m in Sources */,
 				D7B2B4731B44D59000C7BE84 /* SKBaseViewController.m in Sources */,
 				D76C0A041B44DF6D00747FC3 /* SKBannerView.m in Sources */,
 				D7B2B4491B44D32400C7BE84 /* AppDelegate.m in Sources */,
+				D74AB1471B50C5B5003E1792 /* NoticeContentView.m in Sources */,
+				D74AB13C1B50C590003E1792 /* UIColor+FromHex.m in Sources */,
+				D74AB14B1B50C5BD003E1792 /* UIButton+UIButtonImageWithLable.m in Sources */,
 				D76C09E91B44D93700747FC3 /* SKLabel.m in Sources */,
 				D7B2B4741B44D59000C7BE84 /* ViewController.m in Sources */,
 				D76C09FB1B44DAB800747FC3 /* NSDictionary+JSON.m in Sources */,
@@ -313,6 +348,7 @@
 				D7B2B4461B44D32300C7BE84 /* main.m in Sources */,
 				D76C09FC1B44DAB800747FC3 /* NSString+JSONCategories.m in Sources */,
 				D76C09E61B44D92600747FC3 /* SKButton.m in Sources */,
+				D74AB1481B50C5B5003E1792 /* SKPopoverListView.m in Sources */,
 				D76C09FE1B44DAB800747FC3 /* TimeUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
