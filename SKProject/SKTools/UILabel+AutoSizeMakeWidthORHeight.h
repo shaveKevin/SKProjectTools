@@ -6,7 +6,7 @@
 //  Copyright (c) 2015年 shaveKevin. All rights reserved.
 //
 /**
- *  目的实现label 宽和高的自适应
+ *  目的实现label 宽和高的自适应支持ios 6.0 +
  *
  *  @param AutoSizeMakeWidthORHeight 第一个方法目的是实现宽度自适应
  *

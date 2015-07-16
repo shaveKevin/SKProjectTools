@@ -13,7 +13,6 @@
 		D74AB1471B50C5B5003E1792 /* NoticeContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = D74AB1431B50C5B5003E1792 /* NoticeContentView.m */; };
 		D74AB1481B50C5B5003E1792 /* SKPopoverListView.m in Sources */ = {isa = PBXBuildFile; fileRef = D74AB1451B50C5B5003E1792 /* SKPopoverListView.m */; };
 		D74AB14B1B50C5BD003E1792 /* UIButton+UIButtonImageWithLable.m in Sources */ = {isa = PBXBuildFile; fileRef = D74AB14A1B50C5BD003E1792 /* UIButton+UIButtonImageWithLable.m */; };
-		D74AB1511B50F657003E1792 /* UILabel+AutoSizeMakeWidthORHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = D74AB1501B50F657003E1792 /* UILabel+AutoSizeMakeWidthORHeight.m */; };
 		D76C09E31B44D90E00747FC3 /* SKObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D76C09E21B44D90E00747FC3 /* SKObject.m */; };
 		D76C09E61B44D92600747FC3 /* SKButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D76C09E51B44D92600747FC3 /* SKButton.m */; };
 		D76C09E91B44D93700747FC3 /* SKLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D76C09E81B44D93700747FC3 /* SKLabel.m */; };
@@ -32,6 +31,7 @@
 		D7B2B4601B44D32500C7BE84 /* SKProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B2B45F1B44D32500C7BE84 /* SKProjectTests.m */; };
 		D7B2B4731B44D59000C7BE84 /* SKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B2B4701B44D59000C7BE84 /* SKBaseViewController.m */; };
 		D7B2B4741B44D59000C7BE84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B2B4721B44D59000C7BE84 /* ViewController.m */; };
+		D7D6CE331B5782BF0076D4E8 /* UILabel+AutoSizeMakeWidthORHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D6CE321B5782BF0076D4E8 /* UILabel+AutoSizeMakeWidthORHeight.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,8 +57,6 @@
 		D74AB1451B50C5B5003E1792 /* SKPopoverListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPopoverListView.m; sourceTree = "<group>"; };
 		D74AB1491B50C5BD003E1792 /* UIButton+UIButtonImageWithLable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+UIButtonImageWithLable.h"; sourceTree = "<group>"; };
 		D74AB14A1B50C5BD003E1792 /* UIButton+UIButtonImageWithLable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+UIButtonImageWithLable.m"; sourceTree = "<group>"; };
-		D74AB14F1B50F657003E1792 /* UILabel+AutoSizeMakeWidthORHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+AutoSizeMakeWidthORHeight.h"; sourceTree = "<group>"; };
-		D74AB1501B50F657003E1792 /* UILabel+AutoSizeMakeWidthORHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AutoSizeMakeWidthORHeight.m"; sourceTree = "<group>"; };
 		D76C09E11B44D90E00747FC3 /* SKObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKObject.h; sourceTree = "<group>"; };
 		D76C09E21B44D90E00747FC3 /* SKObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKObject.m; sourceTree = "<group>"; };
 		D76C09E41B44D92600747FC3 /* SKButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKButton.h; sourceTree = "<group>"; };
@@ -95,6 +93,8 @@
 		D7B2B4701B44D59000C7BE84 /* SKBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKBaseViewController.m; sourceTree = "<group>"; };
 		D7B2B4711B44D59000C7BE84 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D7B2B4721B44D59000C7BE84 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D7D6CE311B5782BE0076D4E8 /* UILabel+AutoSizeMakeWidthORHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+AutoSizeMakeWidthORHeight.h"; sourceTree = "<group>"; };
+		D7D6CE321B5782BF0076D4E8 /* UILabel+AutoSizeMakeWidthORHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AutoSizeMakeWidthORHeight.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,8 +229,8 @@
 				D74AB1451B50C5B5003E1792 /* SKPopoverListView.m */,
 				D74AB1491B50C5BD003E1792 /* UIButton+UIButtonImageWithLable.h */,
 				D74AB14A1B50C5BD003E1792 /* UIButton+UIButtonImageWithLable.m */,
-				D74AB14F1B50F657003E1792 /* UILabel+AutoSizeMakeWidthORHeight.h */,
-				D74AB1501B50F657003E1792 /* UILabel+AutoSizeMakeWidthORHeight.m */,
+				D7D6CE311B5782BE0076D4E8 /* UILabel+AutoSizeMakeWidthORHeight.h */,
+				D7D6CE321B5782BF0076D4E8 /* UILabel+AutoSizeMakeWidthORHeight.m */,
 			);
 			path = SKTools;
 			sourceTree = "<group>";
@@ -337,7 +337,7 @@
 			files = (
 				D76C09FD1B44DAB800747FC3 /* StringUtil.m in Sources */,
 				D76C09EF1B44DA7B00747FC3 /* SKUserDefaults.m in Sources */,
-				D74AB1511B50F657003E1792 /* UILabel+AutoSizeMakeWidthORHeight.m in Sources */,
+				D7D6CE331B5782BF0076D4E8 /* UILabel+AutoSizeMakeWidthORHeight.m in Sources */,
 				D76C09E31B44D90E00747FC3 /* SKObject.m in Sources */,
 				D74AB13F1B50C599003E1792 /* UIColor+Extension.m in Sources */,
 				D74AB1461B50C5B5003E1792 /* SKImageWithLabel.m in Sources */,
