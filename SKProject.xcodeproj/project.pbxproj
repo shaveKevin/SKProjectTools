@@ -23,6 +23,8 @@
 		D76C09FD1B44DAB800747FC3 /* StringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D76C09F71B44DAB800747FC3 /* StringUtil.m */; };
 		D76C09FE1B44DAB800747FC3 /* TimeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D76C09F91B44DAB800747FC3 /* TimeUtil.m */; };
 		D76C0A041B44DF6D00747FC3 /* SKBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D76C0A031B44DF6D00747FC3 /* SKBannerView.m */; };
+		D7989B441B5E7CE900BCFC8D /* SKBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7989B431B5E7CE900BCFC8D /* SKBorderView.m */; };
+		D7989B461B5E7D8500BCFC8D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7989B451B5E7D8500BCFC8D /* QuartzCore.framework */; };
 		D7B2B4461B44D32300C7BE84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B2B4451B44D32300C7BE84 /* main.m */; };
 		D7B2B4491B44D32400C7BE84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B2B4481B44D32400C7BE84 /* AppDelegate.m */; };
 		D7B2B44F1B44D32500C7BE84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7B2B44D1B44D32500C7BE84 /* Main.storyboard */; };
@@ -78,6 +80,9 @@
 		D76C09F91B44DAB800747FC3 /* TimeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeUtil.m; sourceTree = "<group>"; };
 		D76C0A021B44DF6D00747FC3 /* SKBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKBannerView.h; sourceTree = "<group>"; };
 		D76C0A031B44DF6D00747FC3 /* SKBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKBannerView.m; sourceTree = "<group>"; };
+		D7989B421B5E7CE900BCFC8D /* SKBorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKBorderView.h; sourceTree = "<group>"; };
+		D7989B431B5E7CE900BCFC8D /* SKBorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKBorderView.m; sourceTree = "<group>"; };
+		D7989B451B5E7D8500BCFC8D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D7B2B4401B44D32100C7BE84 /* SKProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7B2B4441B44D32300C7BE84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7B2B4451B44D32300C7BE84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -102,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7989B461B5E7D8500BCFC8D /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +124,7 @@
 		D7B2B4371B44D31E00C7BE84 = {
 			isa = PBXGroup;
 			children = (
+				D7989B451B5E7D8500BCFC8D /* QuartzCore.framework */,
 				D7B2B4421B44D32100C7BE84 /* SKProject */,
 				D7B2B45C1B44D32500C7BE84 /* SKProjectTests */,
 				D7B2B4411B44D32100C7BE84 /* Products */,
@@ -231,6 +238,8 @@
 				D74AB14A1B50C5BD003E1792 /* UIButton+UIButtonImageWithLable.m */,
 				D7D6CE311B5782BE0076D4E8 /* UILabel+AutoSizeMakeWidthORHeight.h */,
 				D7D6CE321B5782BF0076D4E8 /* UILabel+AutoSizeMakeWidthORHeight.m */,
+				D7989B421B5E7CE900BCFC8D /* SKBorderView.h */,
+				D7989B431B5E7CE900BCFC8D /* SKBorderView.m */,
 			);
 			path = SKTools;
 			sourceTree = "<group>";
@@ -339,6 +348,7 @@
 				D76C09EF1B44DA7B00747FC3 /* SKUserDefaults.m in Sources */,
 				D7D6CE331B5782BF0076D4E8 /* UILabel+AutoSizeMakeWidthORHeight.m in Sources */,
 				D76C09E31B44D90E00747FC3 /* SKObject.m in Sources */,
+				D7989B441B5E7CE900BCFC8D /* SKBorderView.m in Sources */,
 				D74AB13F1B50C599003E1792 /* UIColor+Extension.m in Sources */,
 				D74AB1461B50C5B5003E1792 /* SKImageWithLabel.m in Sources */,
 				D7B2B4731B44D59000C7BE84 /* SKBaseViewController.m in Sources */,
