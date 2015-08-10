@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+//子类化button 可以添加 一些属性和方法
 @interface SKButton : UIButton
 
 @end

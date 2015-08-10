@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D72C0A471B783C070010B4B4 /* citydict.plist in Resources */ = {isa = PBXBuildFile; fileRef = D72C0A461B783C070010B4B4 /* citydict.plist */; };
 		D74AB13C1B50C590003E1792 /* UIColor+FromHex.m in Sources */ = {isa = PBXBuildFile; fileRef = D74AB13B1B50C590003E1792 /* UIColor+FromHex.m */; };
 		D74AB13F1B50C599003E1792 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D74AB13E1B50C599003E1792 /* UIColor+Extension.m */; };
 		D74AB1461B50C5B5003E1792 /* SKImageWithLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D74AB1411B50C5B5003E1792 /* SKImageWithLabel.m */; };
@@ -47,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D72C0A461B783C070010B4B4 /* citydict.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = citydict.plist; sourceTree = "<group>"; };
 		D74AB13A1B50C590003E1792 /* UIColor+FromHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FromHex.h"; sourceTree = "<group>"; };
 		D74AB13B1B50C590003E1792 /* UIColor+FromHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FromHex.m"; sourceTree = "<group>"; };
 		D74AB13D1B50C599003E1792 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				D7B2B46E1B44D55D00C7BE84 /* SKTools */,
 				D7B2B4471B44D32400C7BE84 /* AppDelegate.h */,
 				D7B2B4481B44D32400C7BE84 /* AppDelegate.m */,
+				D72C0A461B783C070010B4B4 /* citydict.plist */,
 				D7B2B44D1B44D32500C7BE84 /* Main.storyboard */,
 				D7B2B4501B44D32500C7BE84 /* Images.xcassets */,
 				D7B2B4521B44D32500C7BE84 /* LaunchScreen.xib */,
@@ -325,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7B2B44F1B44D32500C7BE84 /* Main.storyboard in Resources */,
+				D72C0A471B783C070010B4B4 /* citydict.plist in Resources */,
 				D7B2B4541B44D32500C7BE84 /* LaunchScreen.xib in Resources */,
 				D7B2B4511B44D32500C7BE84 /* Images.xcassets in Resources */,
 			);
