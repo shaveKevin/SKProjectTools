@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C120DD61BDE0D2700C73CB7 /* BottomActionPopview.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C120DD51BDE0D2700C73CB7 /* BottomActionPopview.m */; };
+		2C120DD91BDE150600C73CB7 /* BottomActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C120DD81BDE150600C73CB7 /* BottomActionItem.m */; };
 		D72C0A471B783C070010B4B4 /* citydict.plist in Resources */ = {isa = PBXBuildFile; fileRef = D72C0A461B783C070010B4B4 /* citydict.plist */; };
 		D74AB13C1B50C590003E1792 /* UIColor+FromHex.m in Sources */ = {isa = PBXBuildFile; fileRef = D74AB13B1B50C590003E1792 /* UIColor+FromHex.m */; };
 		D74AB13F1B50C599003E1792 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D74AB13E1B50C599003E1792 /* UIColor+Extension.m */; };
@@ -50,6 +52,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C120DD41BDE0D2700C73CB7 /* BottomActionPopview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BottomActionPopview.h; path = "底部弹出视图/BottomActionPopview.h"; sourceTree = "<group>"; };
+		2C120DD51BDE0D2700C73CB7 /* BottomActionPopview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BottomActionPopview.m; path = "底部弹出视图/BottomActionPopview.m"; sourceTree = "<group>"; };
+		2C120DD71BDE150600C73CB7 /* BottomActionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BottomActionItem.h; path = "底部弹出视图/BottomActionItem.h"; sourceTree = "<group>"; };
+		2C120DD81BDE150600C73CB7 /* BottomActionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BottomActionItem.m; path = "底部弹出视图/BottomActionItem.m"; sourceTree = "<group>"; };
 		D72C0A461B783C070010B4B4 /* citydict.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = citydict.plist; sourceTree = "<group>"; };
 		D74AB13A1B50C590003E1792 /* UIColor+FromHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FromHex.h"; sourceTree = "<group>"; };
 		D74AB13B1B50C590003E1792 /* UIColor+FromHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FromHex.m"; sourceTree = "<group>"; };
@@ -127,6 +133,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CA5F4BF1BDE0C7200D46BF4 /* 底部弹出视图 */ = {
+			isa = PBXGroup;
+			children = (
+				2C120DD71BDE150600C73CB7 /* BottomActionItem.h */,
+				2C120DD81BDE150600C73CB7 /* BottomActionItem.m */,
+				2C120DD41BDE0D2700C73CB7 /* BottomActionPopview.h */,
+				2C120DD51BDE0D2700C73CB7 /* BottomActionPopview.m */,
+			);
+			name = "底部弹出视图";
+			sourceTree = "<group>";
+		};
 		D7B2B4371B44D31E00C7BE84 = {
 			isa = PBXGroup;
 			children = (
@@ -211,6 +228,7 @@
 			isa = PBXGroup;
 			children = (
 				D76C09EA1B44D95700747FC3 /* SKConst.h */,
+				2CA5F4BF1BDE0C7200D46BF4 /* 底部弹出视图 */,
 				D76C09E11B44D90E00747FC3 /* SKObject.h */,
 				D76C09E21B44D90E00747FC3 /* SKObject.m */,
 				D76C09E41B44D92600747FC3 /* SKButton.h */,
@@ -355,6 +373,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D76C09FD1B44DAB800747FC3 /* StringUtil.m in Sources */,
+				2C120DD91BDE150600C73CB7 /* BottomActionItem.m in Sources */,
 				D76C09EF1B44DA7B00747FC3 /* SKUserDefaults.m in Sources */,
 				D7D6CE331B5782BF0076D4E8 /* UILabel+AutoSizeMakeWidthORHeight.m in Sources */,
 				D76C09E31B44D90E00747FC3 /* SKObject.m in Sources */,
@@ -372,6 +391,7 @@
 				D7B2B4741B44D59000C7BE84 /* ViewController.m in Sources */,
 				D76C09FB1B44DAB800747FC3 /* NSDictionary+JSON.m in Sources */,
 				D76C09FA1B44DAB800747FC3 /* JSONStrToDict.m in Sources */,
+				2C120DD61BDE0D2700C73CB7 /* BottomActionPopview.m in Sources */,
 				D7B2B4461B44D32300C7BE84 /* main.m in Sources */,
 				D76C09FC1B44DAB800747FC3 /* NSString+JSONCategories.m in Sources */,
 				D76C09E61B44D92600747FC3 /* SKButton.m in Sources */,
