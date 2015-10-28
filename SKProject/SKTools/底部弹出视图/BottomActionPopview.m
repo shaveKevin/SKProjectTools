@@ -275,6 +275,7 @@
     CGFloat topViewHeight = _actionTopView.frame.size.height;
     
     __weak typeof(self) wself = self;
+    
     [UIView animateWithDuration:0.3
                           delay:0
                         options:UIViewAnimationOptionCurveEaseInOut
@@ -295,7 +296,6 @@
                          {
                              [[sself delegate] bottomPopviewDisAppear];
                          }
-                         
                         
                      }];
     
