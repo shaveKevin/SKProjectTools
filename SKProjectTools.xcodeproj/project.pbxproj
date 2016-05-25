@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C63F6271CF5332500D7BEC5 /* NSDictionary+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F5F41CF5332500D7BEC5 /* NSDictionary+JSON.m */; };
+		2C63F6281CF5332500D7BEC5 /* NSString+JSONCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F5F71CF5332500D7BEC5 /* NSString+JSONCategories.m */; };
+		2C63F6291CF5332500D7BEC5 /* SKButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F5FA1CF5332500D7BEC5 /* SKButton.m */; };
+		2C63F62A1CF5332500D7BEC5 /* SKLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F5FC1CF5332500D7BEC5 /* SKLabel.m */; };
+		2C63F62B1CF5332500D7BEC5 /* SKObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F5FE1CF5332500D7BEC5 /* SKObject.m */; };
+		2C63F62C1CF5332500D7BEC5 /* BottomActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F6011CF5332500D7BEC5 /* BottomActionItem.m */; };
+		2C63F62D1CF5332500D7BEC5 /* BottomActionPopview.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F6031CF5332500D7BEC5 /* BottomActionPopview.m */; };
+		2C63F62E1CF5332500D7BEC5 /* SKJSONStrToDict.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F6081CF5332500D7BEC5 /* SKJSONStrToDict.m */; };
+		2C63F62F1CF5332500D7BEC5 /* StringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F60C1CF5332500D7BEC5 /* StringUtil.m */; };
+		2C63F6301CF5332500D7BEC5 /* TimeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F60E1CF5332500D7BEC5 /* TimeUtil.m */; };
+		2C63F6311CF5332500D7BEC5 /* SKUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F6111CF5332500D7BEC5 /* SKUserDefaults.m */; };
+		2C63F6321CF5332500D7BEC5 /* SKBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F6141CF5332500D7BEC5 /* SKBannerView.m */; };
+		2C63F6331CF5332500D7BEC5 /* SKBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F6161CF5332500D7BEC5 /* SKBorderView.m */; };
+		2C63F6341CF5332500D7BEC5 /* SKPopoverListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F6181CF5332500D7BEC5 /* SKPopoverListView.m */; };
+		2C63F6351CF5332500D7BEC5 /* UIButton+UIButtonImageWithLable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F61B1CF5332500D7BEC5 /* UIButton+UIButtonImageWithLable.m */; };
+		2C63F6361CF5332500D7BEC5 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F61E1CF5332500D7BEC5 /* UIColor+Extension.m */; };
+		2C63F6371CF5332500D7BEC5 /* UIColor+FromHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F6201CF5332500D7BEC5 /* UIColor+FromHex.m */; };
+		2C63F6381CF5332500D7BEC5 /* UILabel+AutoSizeMakeWidthORHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F6231CF5332500D7BEC5 /* UILabel+AutoSizeMakeWidthORHeight.m */; };
+		2C63F6391CF5332500D7BEC5 /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F6261CF5332500D7BEC5 /* XMLDictionary.m */; };
+		2C63F6411CF5345900D7BEC5 /* SKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F63D1CF5345900D7BEC5 /* SKBaseViewController.m */; };
+		2C63F6421CF5345900D7BEC5 /* RootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F6401CF5345900D7BEC5 /* RootVC.m */; };
+		2C63F6461CF5348B00D7BEC5 /* SKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F6451CF5348B00D7BEC5 /* SKAppDelegate.m */; };
+		2C63F64A1CF534E700D7BEC5 /* citydict.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C63F6481CF534E700D7BEC5 /* citydict.plist */; };
+		2C63F64B1CF534E700D7BEC5 /* SKImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C63F6491CF534E700D7BEC5 /* SKImages.xcassets */; };
+		2C63F64E1CF5370D00D7BEC5 /* NSString+LabelWidthAndHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F64D1CF5370D00D7BEC5 /* NSString+LabelWidthAndHeight.m */; };
+		2C63F6511CF5372E00D7BEC5 /* NSAttributedString+LabelWidthAndHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F6501CF5372E00D7BEC5 /* NSAttributedString+LabelWidthAndHeight.m */; };
+		D7989B461B5E7D8500BCFC8D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7989B451B5E7D8500BCFC8D /* QuartzCore.framework */; };
+		D7B2B4461B44D32300C7BE84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B2B4451B44D32300C7BE84 /* main.m */; };
+		D7B2B44F1B44D32500C7BE84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7B2B44D1B44D32500C7BE84 /* Main.storyboard */; };
+		D7B2B4541B44D32500C7BE84 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7B2B4521B44D32500C7BE84 /* LaunchScreen.xib */; };
+		D7B2B4601B44D32500C7BE84 /* SKProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B2B45F1B44D32500C7BE84 /* SKProjectTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7B2B45A1B44D32500C7BE84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7B2B4381B44D31F00C7BE84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7B2B43F1B44D32000C7BE84;
+			remoteInfo = SKProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C63F5F31CF5332500D7BEC5 /* NSDictionary+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSON.h"; sourceTree = "<group>"; };
+		2C63F5F41CF5332500D7BEC5 /* NSDictionary+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSON.m"; sourceTree = "<group>"; };
+		2C63F5F61CF5332500D7BEC5 /* NSString+JSONCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JSONCategories.h"; sourceTree = "<group>"; };
+		2C63F5F71CF5332500D7BEC5 /* NSString+JSONCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JSONCategories.m"; sourceTree = "<group>"; };
+		2C63F5F91CF5332500D7BEC5 /* SKButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKButton.h; sourceTree = "<group>"; };
+		2C63F5FA1CF5332500D7BEC5 /* SKButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKButton.m; sourceTree = "<group>"; };
+		2C63F5FB1CF5332500D7BEC5 /* SKLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKLabel.h; sourceTree = "<group>"; };
+		2C63F5FC1CF5332500D7BEC5 /* SKLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKLabel.m; sourceTree = "<group>"; };
+		2C63F5FD1CF5332500D7BEC5 /* SKObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKObject.h; sourceTree = "<group>"; };
+		2C63F5FE1CF5332500D7BEC5 /* SKObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKObject.m; sourceTree = "<group>"; };
+		2C63F6001CF5332500D7BEC5 /* BottomActionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomActionItem.h; sourceTree = "<group>"; };
+		2C63F6011CF5332500D7BEC5 /* BottomActionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomActionItem.m; sourceTree = "<group>"; };
+		2C63F6021CF5332500D7BEC5 /* BottomActionPopview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomActionPopview.h; sourceTree = "<group>"; };
+		2C63F6031CF5332500D7BEC5 /* BottomActionPopview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomActionPopview.m; sourceTree = "<group>"; };
+		2C63F6051CF5332500D7BEC5 /* SKConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKConst.h; sourceTree = "<group>"; };
+		2C63F6071CF5332500D7BEC5 /* SKJSONStrToDict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKJSONStrToDict.h; sourceTree = "<group>"; };
+		2C63F6081CF5332500D7BEC5 /* SKJSONStrToDict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKJSONStrToDict.m; sourceTree = "<group>"; };
+		2C63F60B1CF5332500D7BEC5 /* StringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtil.h; sourceTree = "<group>"; };
+		2C63F60C1CF5332500D7BEC5 /* StringUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringUtil.m; sourceTree = "<group>"; };
+		2C63F60D1CF5332500D7BEC5 /* TimeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeUtil.h; sourceTree = "<group>"; };
+		2C63F60E1CF5332500D7BEC5 /* TimeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeUtil.m; sourceTree = "<group>"; };
+		2C63F6101CF5332500D7BEC5 /* SKUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKUserDefaults.h; sourceTree = "<group>"; };
+		2C63F6111CF5332500D7BEC5 /* SKUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKUserDefaults.m; sourceTree = "<group>"; };
+		2C63F6131CF5332500D7BEC5 /* SKBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKBannerView.h; sourceTree = "<group>"; };
+		2C63F6141CF5332500D7BEC5 /* SKBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKBannerView.m; sourceTree = "<group>"; };
+		2C63F6151CF5332500D7BEC5 /* SKBorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKBorderView.h; sourceTree = "<group>"; };
+		2C63F6161CF5332500D7BEC5 /* SKBorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKBorderView.m; sourceTree = "<group>"; };
+		2C63F6171CF5332500D7BEC5 /* SKPopoverListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPopoverListView.h; sourceTree = "<group>"; };
+		2C63F6181CF5332500D7BEC5 /* SKPopoverListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPopoverListView.m; sourceTree = "<group>"; };
+		2C63F61A1CF5332500D7BEC5 /* UIButton+UIButtonImageWithLable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+UIButtonImageWithLable.h"; sourceTree = "<group>"; };
+		2C63F61B1CF5332500D7BEC5 /* UIButton+UIButtonImageWithLable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+UIButtonImageWithLable.m"; sourceTree = "<group>"; };
+		2C63F61D1CF5332500D7BEC5 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		2C63F61E1CF5332500D7BEC5 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		2C63F61F1CF5332500D7BEC5 /* UIColor+FromHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FromHex.h"; sourceTree = "<group>"; };
+		2C63F6201CF5332500D7BEC5 /* UIColor+FromHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FromHex.m"; sourceTree = "<group>"; };
+		2C63F6221CF5332500D7BEC5 /* UILabel+AutoSizeMakeWidthORHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+AutoSizeMakeWidthORHeight.h"; sourceTree = "<group>"; };
+		2C63F6231CF5332500D7BEC5 /* UILabel+AutoSizeMakeWidthORHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AutoSizeMakeWidthORHeight.m"; sourceTree = "<group>"; };
+		2C63F6251CF5332500D7BEC5 /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
+		2C63F6261CF5332500D7BEC5 /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
+		2C63F63C1CF5345900D7BEC5 /* SKBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKBaseViewController.h; sourceTree = "<group>"; };
+		2C63F63D1CF5345900D7BEC5 /* SKBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKBaseViewController.m; sourceTree = "<group>"; };
+		2C63F63F1CF5345900D7BEC5 /* RootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootVC.h; sourceTree = "<group>"; };
+		2C63F6401CF5345900D7BEC5 /* RootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootVC.m; sourceTree = "<group>"; };
+		2C63F6441CF5348B00D7BEC5 /* SKAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKAppDelegate.h; sourceTree = "<group>"; };
+		2C63F6451CF5348B00D7BEC5 /* SKAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKAppDelegate.m; sourceTree = "<group>"; };
+		2C63F6481CF534E700D7BEC5 /* citydict.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = citydict.plist; sourceTree = "<group>"; };
+		2C63F6491CF534E700D7BEC5 /* SKImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SKImages.xcassets; sourceTree = "<group>"; };
+		2C63F64C1CF5370D00D7BEC5 /* NSString+LabelWidthAndHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LabelWidthAndHeight.h"; sourceTree = "<group>"; };
+		2C63F64D1CF5370D00D7BEC5 /* NSString+LabelWidthAndHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LabelWidthAndHeight.m"; sourceTree = "<group>"; };
+		2C63F64F1CF5372E00D7BEC5 /* NSAttributedString+LabelWidthAndHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+LabelWidthAndHeight.h"; sourceTree = "<group>"; };
+		2C63F6501CF5372E00D7BEC5 /* NSAttributedString+LabelWidthAndHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+LabelWidthAndHeight.m"; sourceTree = "<group>"; };
+		D7989B451B5E7D8500BCFC8D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D7B2B4401B44D32100C7BE84 /* SKProjectTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKProjectTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7B2B4441B44D32300C7BE84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7B2B4451B44D32300C7BE84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7B2B44E1B44D32500C7BE84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7B2B4531B44D32500C7BE84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D7B2B4591B44D32500C7BE84 /* SKProjectTools.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKProjectTools.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7B2B45E1B44D32500C7BE84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7B2B45F1B44D32500C7BE84 /* SKProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKProjectTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7B2B43D1B44D32000C7BE84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7989B461B5E7D8500BCFC8D /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B2B4561B44D32500C7BE84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C63F5F11CF5332500D7BEC5 /* SKTools */ = {
+			isa = PBXGroup;
+			children = (
+				2C63F6211CF5332500D7BEC5 /* UILabel+Category */,
+				2C63F61C1CF5332500D7BEC5 /* UIColor+Category */,
+				2C63F6191CF5332500D7BEC5 /* UIButton+Category */,
+				2C63F5F21CF5332500D7BEC5 /* NSDictionary+Category */,
+				2C63F5F51CF5332500D7BEC5 /* NSString+Category */,
+				2C63F5F81CF5332500D7BEC5 /* SKBase */,
+				2C63F5FF1CF5332500D7BEC5 /* SKBottomActionPopview */,
+				2C63F6041CF5332500D7BEC5 /* SKConst */,
+				2C63F6061CF5332500D7BEC5 /* SKJSONToDict */,
+				2C63F6091CF5332500D7BEC5 /* SKObject */,
+				2C63F60A1CF5332500D7BEC5 /* SKString */,
+				2C63F60F1CF5332500D7BEC5 /* SKUserDefaults */,
+				2C63F6121CF5332500D7BEC5 /* SKView */,
+				2C63F6241CF5332500D7BEC5 /* XMLDictionary */,
+			);
+			path = SKTools;
+			sourceTree = "<group>";
+		};
+		2C63F5F21CF5332500D7BEC5 /* NSDictionary+Category */ = {
+			isa = PBXGroup;
+			children = (
+				2C63F5F31CF5332500D7BEC5 /* NSDictionary+JSON.h */,
+				2C63F5F41CF5332500D7BEC5 /* NSDictionary+JSON.m */,
+			);
+			path = "NSDictionary+Category";
+			sourceTree = "<group>";
+		};
+		2C63F5F51CF5332500D7BEC5 /* NSString+Category */ = {
+			isa = PBXGroup;
+			children = (
+				2C63F5F61CF5332500D7BEC5 /* NSString+JSONCategories.h */,
+				2C63F5F71CF5332500D7BEC5 /* NSString+JSONCategories.m */,
+				2C63F64C1CF5370D00D7BEC5 /* NSString+LabelWidthAndHeight.h */,
+				2C63F64D1CF5370D00D7BEC5 /* NSString+LabelWidthAndHeight.m */,
+				2C63F64F1CF5372E00D7BEC5 /* NSAttributedString+LabelWidthAndHeight.h */,
+				2C63F6501CF5372E00D7BEC5 /* NSAttributedString+LabelWidthAndHeight.m */,
+			);
+			path = "NSString+Category";
+			sourceTree = "<group>";
+		};
+		2C63F5F81CF5332500D7BEC5 /* SKBase */ = {
+			isa = PBXGroup;
+			children = (
+				2C63F5F91CF5332500D7BEC5 /* SKButton.h */,
+				2C63F5FA1CF5332500D7BEC5 /* SKButton.m */,
+				2C63F5FB1CF5332500D7BEC5 /* SKLabel.h */,
+				2C63F5FC1CF5332500D7BEC5 /* SKLabel.m */,
+				2C63F5FD1CF5332500D7BEC5 /* SKObject.h */,
+				2C63F5FE1CF5332500D7BEC5 /* SKObject.m */,
+			);
+			path = SKBase;
+			sourceTree = "<group>";
+		};
+		2C63F5FF1CF5332500D7BEC5 /* SKBottomActionPopview */ = {
+			isa = PBXGroup;
+			children = (
+				2C63F6001CF5332500D7BEC5 /* BottomActionItem.h */,
+				2C63F6011CF5332500D7BEC5 /* BottomActionItem.m */,
+				2C63F6021CF5332500D7BEC5 /* BottomActionPopview.h */,
+				2C63F6031CF5332500D7BEC5 /* BottomActionPopview.m */,
+			);
+			path = SKBottomActionPopview;
+			sourceTree = "<group>";
+		};
+		2C63F6041CF5332500D7BEC5 /* SKConst */ = {
+			isa = PBXGroup;
+			children = (
+				2C63F6051CF5332500D7BEC5 /* SKConst.h */,
+			);
+			path = SKConst;
+			sourceTree = "<group>";
+		};
+		2C63F6061CF5332500D7BEC5 /* SKJSONToDict */ = {
+			isa = PBXGroup;
+			children = (
+				2C63F6071CF5332500D7BEC5 /* SKJSONStrToDict.h */,
+				2C63F6081CF5332500D7BEC5 /* SKJSONStrToDict.m */,
+			);
+			path = SKJSONToDict;
+			sourceTree = "<group>";
+		};
+		2C63F6091CF5332500D7BEC5 /* SKObject */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SKObject;
+			sourceTree = "<group>";
+		};
+		2C63F60A1CF5332500D7BEC5 /* SKString */ = {
+			isa = PBXGroup;
+			children = (
+				2C63F60B1CF5332500D7BEC5 /* StringUtil.h */,
+				2C63F60C1CF5332500D7BEC5 /* StringUtil.m */,
+				2C63F60D1CF5332500D7BEC5 /* TimeUtil.h */,
+				2C63F60E1CF5332500D7BEC5 /* TimeUtil.m */,
+			);
+			path = SKString;
+			sourceTree = "<group>";
+		};
+		2C63F60F1CF5332500D7BEC5 /* SKUserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				2C63F6101CF5332500D7BEC5 /* SKUserDefaults.h */,
+				2C63F6111CF5332500D7BEC5 /* SKUserDefaults.m */,
+			);
+			path = SKUserDefaults;
+			sourceTree = "<group>";
+		};
+		2C63F6121CF5332500D7BEC5 /* SKView */ = {
+			isa = PBXGroup;
+			children = (
+				2C63F6131CF5332500D7BEC5 /* SKBannerView.h */,
+				2C63F6141CF5332500D7BEC5 /* SKBannerView.m */,
+				2C63F6151CF5332500D7BEC5 /* SKBorderView.h */,
+				2C63F6161CF5332500D7BEC5 /* SKBorderView.m */,
+				2C63F6171CF5332500D7BEC5 /* SKPopoverListView.h */,
+				2C63F6181CF5332500D7BEC5 /* SKPopoverListView.m */,
+			);
+			path = SKView;
+			sourceTree = "<group>";
+		};
+		2C63F6191CF5332500D7BEC5 /* UIButton+Category */ = {
+			isa = PBXGroup;
+			children = (
+				2C63F61A1CF5332500D7BEC5 /* UIButton+UIButtonImageWithLable.h */,
+				2C63F61B1CF5332500D7BEC5 /* UIButton+UIButtonImageWithLable.m */,
+			);
+			path = "UIButton+Category";
+			sourceTree = "<group>";
+		};
+		2C63F61C1CF5332500D7BEC5 /* UIColor+Category */ = {
+			isa = PBXGroup;
+			children = (
+				2C63F61D1CF5332500D7BEC5 /* UIColor+Extension.h */,
+				2C63F61E1CF5332500D7BEC5 /* UIColor+Extension.m */,
+				2C63F61F1CF5332500D7BEC5 /* UIColor+FromHex.h */,
+				2C63F6201CF5332500D7BEC5 /* UIColor+FromHex.m */,
+			);
+			path = "UIColor+Category";
+			sourceTree = "<group>";
+		};
+		2C63F6211CF5332500D7BEC5 /* UILabel+Category */ = {
+			isa = PBXGroup;
+			children = (
+				2C63F6221CF5332500D7BEC5 /* UILabel+AutoSizeMakeWidthORHeight.h */,
+				2C63F6231CF5332500D7BEC5 /* UILabel+AutoSizeMakeWidthORHeight.m */,
+			);
+			path = "UILabel+Category";
+			sourceTree = "<group>";
+		};
+		2C63F6241CF5332500D7BEC5 /* XMLDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				2C63F6251CF5332500D7BEC5 /* XMLDictionary.h */,
+				2C63F6261CF5332500D7BEC5 /* XMLDictionary.m */,
+			);
+			path = XMLDictionary;
+			sourceTree = "<group>";
+		};
+		2C63F63A1CF5345900D7BEC5 /* SKControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C63F63B1CF5345900D7BEC5 /* SKBaseVC */,
+				2C63F63E1CF5345900D7BEC5 /* SKRootVC */,
+			);
+			path = SKControllers;
+			sourceTree = "<group>";
+		};
+		2C63F63B1CF5345900D7BEC5 /* SKBaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				2C63F63C1CF5345900D7BEC5 /* SKBaseViewController.h */,
+				2C63F63D1CF5345900D7BEC5 /* SKBaseViewController.m */,
+			);
+			path = SKBaseVC;
+			sourceTree = "<group>";
+		};
+		2C63F63E1CF5345900D7BEC5 /* SKRootVC */ = {
+			isa = PBXGroup;
+			children = (
+				2C63F63F1CF5345900D7BEC5 /* RootVC.h */,
+				2C63F6401CF5345900D7BEC5 /* RootVC.m */,
+			);
+			path = SKRootVC;
+			sourceTree = "<group>";
+		};
+		2C63F6431CF5348B00D7BEC5 /* SKAppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2C63F6441CF5348B00D7BEC5 /* SKAppDelegate.h */,
+				2C63F6451CF5348B00D7BEC5 /* SKAppDelegate.m */,
+			);
+			path = SKAppDelegate;
+			sourceTree = "<group>";
+		};
+		2C63F6471CF534E700D7BEC5 /* SKSource */ = {
+			isa = PBXGroup;
+			children = (
+				D7B2B44D1B44D32500C7BE84 /* Main.storyboard */,
+				D7B2B4521B44D32500C7BE84 /* LaunchScreen.xib */,
+				2C63F6481CF534E700D7BEC5 /* citydict.plist */,
+				2C63F6491CF534E700D7BEC5 /* SKImages.xcassets */,
+			);
+			path = SKSource;
+			sourceTree = "<group>";
+		};
+		D7B2B4371B44D31E00C7BE84 = {
+			isa = PBXGroup;
+			children = (
+				D7B2B4421B44D32100C7BE84 /* SKProjectTools */,
+				D7B2B45C1B44D32500C7BE84 /* SKProjectTests */,
+				D7B2B4411B44D32100C7BE84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7B2B4411B44D32100C7BE84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7B2B4401B44D32100C7BE84 /* SKProjectTools.app */,
+				D7B2B4591B44D32500C7BE84 /* SKProjectTools.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7B2B4421B44D32100C7BE84 /* SKProjectTools */ = {
+			isa = PBXGroup;
+			children = (
+				2C63F5F11CF5332500D7BEC5 /* SKTools */,
+				2C63F63A1CF5345900D7BEC5 /* SKControllers */,
+				2C63F6431CF5348B00D7BEC5 /* SKAppDelegate */,
+				2C63F6471CF534E700D7BEC5 /* SKSource */,
+				D7B2B4431B44D32200C7BE84 /* Supporting Files */,
+			);
+			name = SKProjectTools;
+			path = SKProject;
+			sourceTree = "<group>";
+		};
+		D7B2B4431B44D32200C7BE84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7989B451B5E7D8500BCFC8D /* QuartzCore.framework */,
+				D7B2B4441B44D32300C7BE84 /* Info.plist */,
+				D7B2B4451B44D32300C7BE84 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7B2B45C1B44D32500C7BE84 /* SKProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7B2B45F1B44D32500C7BE84 /* SKProjectTests.m */,
+				D7B2B45D1B44D32500C7BE84 /* Supporting Files */,
+			);
+			path = SKProjectTests;
+			sourceTree = "<group>";
+		};
+		D7B2B45D1B44D32500C7BE84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7B2B45E1B44D32500C7BE84 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7B2B43F1B44D32000C7BE84 /* SKProjectTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7B2B4631B44D32500C7BE84 /* Build configuration list for PBXNativeTarget "SKProjectTools" */;
+			buildPhases = (
+				D7B2B43C1B44D32000C7BE84 /* Sources */,
+				D7B2B43D1B44D32000C7BE84 /* Frameworks */,
+				D7B2B43E1B44D32000C7BE84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKProjectTools;
+			productName = SKProject;
+			productReference = D7B2B4401B44D32100C7BE84 /* SKProjectTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7B2B4581B44D32500C7BE84 /* SKProjectToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7B2B4661B44D32500C7BE84 /* Build configuration list for PBXNativeTarget "SKProjectToolsTests" */;
+			buildPhases = (
+				D7B2B4551B44D32500C7BE84 /* Sources */,
+				D7B2B4561B44D32500C7BE84 /* Frameworks */,
+				D7B2B4571B44D32500C7BE84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7B2B45B1B44D32500C7BE84 /* PBXTargetDependency */,
+			);
+			name = SKProjectToolsTests;
+			productName = SKProjectTests;
+			productReference = D7B2B4591B44D32500C7BE84 /* SKProjectTools.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7B2B4381B44D31F00C7BE84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = shaveKevin;
+				TargetAttributes = {
+					D7B2B43F1B44D32000C7BE84 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					D7B2B4581B44D32500C7BE84 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = D7B2B43F1B44D32000C7BE84;
+					};
+				};
+			};
+			buildConfigurationList = D7B2B43B1B44D31F00C7BE84 /* Build configuration list for PBXProject "SKProjectTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7B2B4371B44D31E00C7BE84;
+			productRefGroup = D7B2B4411B44D32100C7BE84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7B2B43F1B44D32000C7BE84 /* SKProjectTools */,
+				D7B2B4581B44D32500C7BE84 /* SKProjectToolsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7B2B43E1B44D32000C7BE84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7B2B44F1B44D32500C7BE84 /* Main.storyboard in Resources */,
+				2C63F64B1CF534E700D7BEC5 /* SKImages.xcassets in Resources */,
+				2C63F64A1CF534E700D7BEC5 /* citydict.plist in Resources */,
+				D7B2B4541B44D32500C7BE84 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B2B4571B44D32500C7BE84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7B2B43C1B44D32000C7BE84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C63F6291CF5332500D7BEC5 /* SKButton.m in Sources */,
+				2C63F6411CF5345900D7BEC5 /* SKBaseViewController.m in Sources */,
+				2C63F62C1CF5332500D7BEC5 /* BottomActionItem.m in Sources */,
+				2C63F6311CF5332500D7BEC5 /* SKUserDefaults.m in Sources */,
+				2C63F62F1CF5332500D7BEC5 /* StringUtil.m in Sources */,
+				2C63F6351CF5332500D7BEC5 /* UIButton+UIButtonImageWithLable.m in Sources */,
+				2C63F6461CF5348B00D7BEC5 /* SKAppDelegate.m in Sources */,
+				2C63F62A1CF5332500D7BEC5 /* SKLabel.m in Sources */,
+				2C63F64E1CF5370D00D7BEC5 /* NSString+LabelWidthAndHeight.m in Sources */,
+				2C63F6361CF5332500D7BEC5 /* UIColor+Extension.m in Sources */,
+				2C63F62E1CF5332500D7BEC5 /* SKJSONStrToDict.m in Sources */,
+				2C63F6391CF5332500D7BEC5 /* XMLDictionary.m in Sources */,
+				2C63F6331CF5332500D7BEC5 /* SKBorderView.m in Sources */,
+				2C63F6271CF5332500D7BEC5 /* NSDictionary+JSON.m in Sources */,
+				2C63F6321CF5332500D7BEC5 /* SKBannerView.m in Sources */,
+				2C63F6371CF5332500D7BEC5 /* UIColor+FromHex.m in Sources */,
+				2C63F6281CF5332500D7BEC5 /* NSString+JSONCategories.m in Sources */,
+				2C63F62D1CF5332500D7BEC5 /* BottomActionPopview.m in Sources */,
+				2C63F6301CF5332500D7BEC5 /* TimeUtil.m in Sources */,
+				2C63F62B1CF5332500D7BEC5 /* SKObject.m in Sources */,
+				2C63F6381CF5332500D7BEC5 /* UILabel+AutoSizeMakeWidthORHeight.m in Sources */,
+				2C63F6421CF5345900D7BEC5 /* RootVC.m in Sources */,
+				2C63F6511CF5372E00D7BEC5 /* NSAttributedString+LabelWidthAndHeight.m in Sources */,
+				2C63F6341CF5332500D7BEC5 /* SKPopoverListView.m in Sources */,
+				D7B2B4461B44D32300C7BE84 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B2B4551B44D32500C7BE84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7B2B4601B44D32500C7BE84 /* SKProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7B2B45B1B44D32500C7BE84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7B2B43F1B44D32000C7BE84 /* SKProjectTools */;
+			targetProxy = D7B2B45A1B44D32500C7BE84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7B2B44D1B44D32500C7BE84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7B2B44E1B44D32500C7BE84 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		D7B2B4521B44D32500C7BE84 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7B2B4531B44D32500C7BE84 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7B2B4611B44D32500C7BE84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D7B2B4621B44D32500C7BE84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7B2B4641B44D32500C7BE84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = SKProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shaveKevin;
+				PRODUCT_NAME = SKProjectTools;
+			};
+			name = Debug;
+		};
+		D7B2B4651B44D32500C7BE84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = SKProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shaveKevin;
+				PRODUCT_NAME = SKProjectTools;
+			};
+			name = Release;
+		};
+		D7B2B4671B44D32500C7BE84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SKProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = SKProjectTools;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKProjectTools.app/SKProjectTools";
+			};
+			name = Debug;
+		};
+		D7B2B4681B44D32500C7BE84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SKProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = SKProjectTools;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKProjectTools.app/SKProjectTools";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7B2B43B1B44D31F00C7BE84 /* Build configuration list for PBXProject "SKProjectTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B2B4611B44D32500C7BE84 /* Debug */,
+				D7B2B4621B44D32500C7BE84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7B2B4631B44D32500C7BE84 /* Build configuration list for PBXNativeTarget "SKProjectTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B2B4641B44D32500C7BE84 /* Debug */,
+				D7B2B4651B44D32500C7BE84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7B2B4661B44D32500C7BE84 /* Build configuration list for PBXNativeTarget "SKProjectToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B2B4671B44D32500C7BE84 /* Debug */,
+				D7B2B4681B44D32500C7BE84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7B2B4381B44D31F00C7BE84 /* Project object */;
+}
