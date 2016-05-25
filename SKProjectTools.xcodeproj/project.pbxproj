@@ -9,9 +9,6 @@
 /* Begin PBXBuildFile section */
 		2C63F6271CF5332500D7BEC5 /* NSDictionary+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F5F41CF5332500D7BEC5 /* NSDictionary+JSON.m */; };
 		2C63F6281CF5332500D7BEC5 /* NSString+JSONCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F5F71CF5332500D7BEC5 /* NSString+JSONCategories.m */; };
-		2C63F6291CF5332500D7BEC5 /* SKButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F5FA1CF5332500D7BEC5 /* SKButton.m */; };
-		2C63F62A1CF5332500D7BEC5 /* SKLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F5FC1CF5332500D7BEC5 /* SKLabel.m */; };
-		2C63F62B1CF5332500D7BEC5 /* SKObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F5FE1CF5332500D7BEC5 /* SKObject.m */; };
 		2C63F62C1CF5332500D7BEC5 /* BottomActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F6011CF5332500D7BEC5 /* BottomActionItem.m */; };
 		2C63F62D1CF5332500D7BEC5 /* BottomActionPopview.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F6031CF5332500D7BEC5 /* BottomActionPopview.m */; };
 		2C63F62E1CF5332500D7BEC5 /* SKJSONStrToDict.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F6081CF5332500D7BEC5 /* SKJSONStrToDict.m */; };
@@ -33,6 +30,9 @@
 		2C63F64B1CF534E700D7BEC5 /* SKImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C63F6491CF534E700D7BEC5 /* SKImages.xcassets */; };
 		2C63F64E1CF5370D00D7BEC5 /* NSString+LabelWidthAndHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F64D1CF5370D00D7BEC5 /* NSString+LabelWidthAndHeight.m */; };
 		2C63F6511CF5372E00D7BEC5 /* NSAttributedString+LabelWidthAndHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F6501CF5372E00D7BEC5 /* NSAttributedString+LabelWidthAndHeight.m */; };
+		2C63F6591CF5779000D7BEC5 /* SKButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F6541CF5779000D7BEC5 /* SKButton.m */; };
+		2C63F65A1CF5779000D7BEC5 /* SKLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F6561CF5779000D7BEC5 /* SKLabel.m */; };
+		2C63F65B1CF5779000D7BEC5 /* SKObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F6581CF5779000D7BEC5 /* SKObject.m */; };
 		D7989B461B5E7D8500BCFC8D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7989B451B5E7D8500BCFC8D /* QuartzCore.framework */; };
 		D7B2B4461B44D32300C7BE84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B2B4451B44D32300C7BE84 /* main.m */; };
 		D7B2B44F1B44D32500C7BE84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7B2B44D1B44D32500C7BE84 /* Main.storyboard */; };
@@ -55,12 +55,6 @@
 		2C63F5F41CF5332500D7BEC5 /* NSDictionary+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSON.m"; sourceTree = "<group>"; };
 		2C63F5F61CF5332500D7BEC5 /* NSString+JSONCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JSONCategories.h"; sourceTree = "<group>"; };
 		2C63F5F71CF5332500D7BEC5 /* NSString+JSONCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JSONCategories.m"; sourceTree = "<group>"; };
-		2C63F5F91CF5332500D7BEC5 /* SKButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKButton.h; sourceTree = "<group>"; };
-		2C63F5FA1CF5332500D7BEC5 /* SKButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKButton.m; sourceTree = "<group>"; };
-		2C63F5FB1CF5332500D7BEC5 /* SKLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKLabel.h; sourceTree = "<group>"; };
-		2C63F5FC1CF5332500D7BEC5 /* SKLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKLabel.m; sourceTree = "<group>"; };
-		2C63F5FD1CF5332500D7BEC5 /* SKObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKObject.h; sourceTree = "<group>"; };
-		2C63F5FE1CF5332500D7BEC5 /* SKObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKObject.m; sourceTree = "<group>"; };
 		2C63F6001CF5332500D7BEC5 /* BottomActionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomActionItem.h; sourceTree = "<group>"; };
 		2C63F6011CF5332500D7BEC5 /* BottomActionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomActionItem.m; sourceTree = "<group>"; };
 		2C63F6021CF5332500D7BEC5 /* BottomActionPopview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomActionPopview.h; sourceTree = "<group>"; };
@@ -102,6 +96,12 @@
 		2C63F64D1CF5370D00D7BEC5 /* NSString+LabelWidthAndHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LabelWidthAndHeight.m"; sourceTree = "<group>"; };
 		2C63F64F1CF5372E00D7BEC5 /* NSAttributedString+LabelWidthAndHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+LabelWidthAndHeight.h"; sourceTree = "<group>"; };
 		2C63F6501CF5372E00D7BEC5 /* NSAttributedString+LabelWidthAndHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+LabelWidthAndHeight.m"; sourceTree = "<group>"; };
+		2C63F6531CF5779000D7BEC5 /* SKButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKButton.h; sourceTree = "<group>"; };
+		2C63F6541CF5779000D7BEC5 /* SKButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKButton.m; sourceTree = "<group>"; };
+		2C63F6551CF5779000D7BEC5 /* SKLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKLabel.h; sourceTree = "<group>"; };
+		2C63F6561CF5779000D7BEC5 /* SKLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKLabel.m; sourceTree = "<group>"; };
+		2C63F6571CF5779000D7BEC5 /* SKObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKObject.h; sourceTree = "<group>"; };
+		2C63F6581CF5779000D7BEC5 /* SKObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKObject.m; sourceTree = "<group>"; };
 		D7989B451B5E7D8500BCFC8D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D7B2B4401B44D32100C7BE84 /* SKProjectTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKProjectTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7B2B4441B44D32300C7BE84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -140,7 +140,6 @@
 				2C63F6191CF5332500D7BEC5 /* UIButton+Category */,
 				2C63F5F21CF5332500D7BEC5 /* NSDictionary+Category */,
 				2C63F5F51CF5332500D7BEC5 /* NSString+Category */,
-				2C63F5F81CF5332500D7BEC5 /* SKBase */,
 				2C63F5FF1CF5332500D7BEC5 /* SKBottomActionPopview */,
 				2C63F6041CF5332500D7BEC5 /* SKConst */,
 				2C63F6061CF5332500D7BEC5 /* SKJSONToDict */,
@@ -173,19 +172,6 @@
 				2C63F6501CF5372E00D7BEC5 /* NSAttributedString+LabelWidthAndHeight.m */,
 			);
 			path = "NSString+Category";
-			sourceTree = "<group>";
-		};
-		2C63F5F81CF5332500D7BEC5 /* SKBase */ = {
-			isa = PBXGroup;
-			children = (
-				2C63F5F91CF5332500D7BEC5 /* SKButton.h */,
-				2C63F5FA1CF5332500D7BEC5 /* SKButton.m */,
-				2C63F5FB1CF5332500D7BEC5 /* SKLabel.h */,
-				2C63F5FC1CF5332500D7BEC5 /* SKLabel.m */,
-				2C63F5FD1CF5332500D7BEC5 /* SKObject.h */,
-				2C63F5FE1CF5332500D7BEC5 /* SKObject.m */,
-			);
-			path = SKBase;
 			sourceTree = "<group>";
 		};
 		2C63F5FF1CF5332500D7BEC5 /* SKBottomActionPopview */ = {
@@ -341,6 +327,19 @@
 			path = SKSource;
 			sourceTree = "<group>";
 		};
+		2C63F6521CF5779000D7BEC5 /* SKBase */ = {
+			isa = PBXGroup;
+			children = (
+				2C63F6531CF5779000D7BEC5 /* SKButton.h */,
+				2C63F6541CF5779000D7BEC5 /* SKButton.m */,
+				2C63F6551CF5779000D7BEC5 /* SKLabel.h */,
+				2C63F6561CF5779000D7BEC5 /* SKLabel.m */,
+				2C63F6571CF5779000D7BEC5 /* SKObject.h */,
+				2C63F6581CF5779000D7BEC5 /* SKObject.m */,
+			);
+			path = SKBase;
+			sourceTree = "<group>";
+		};
 		D7B2B4371B44D31E00C7BE84 = {
 			isa = PBXGroup;
 			children = (
@@ -363,6 +362,7 @@
 			isa = PBXGroup;
 			children = (
 				2C63F5F11CF5332500D7BEC5 /* SKTools */,
+				2C63F6521CF5779000D7BEC5 /* SKBase */,
 				2C63F63A1CF5345900D7BEC5 /* SKControllers */,
 				2C63F6431CF5348B00D7BEC5 /* SKAppDelegate */,
 				2C63F6471CF534E700D7BEC5 /* SKSource */,
@@ -500,17 +500,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C63F6291CF5332500D7BEC5 /* SKButton.m in Sources */,
+				2C63F65B1CF5779000D7BEC5 /* SKObject.m in Sources */,
 				2C63F6411CF5345900D7BEC5 /* SKBaseViewController.m in Sources */,
 				2C63F62C1CF5332500D7BEC5 /* BottomActionItem.m in Sources */,
 				2C63F6311CF5332500D7BEC5 /* SKUserDefaults.m in Sources */,
 				2C63F62F1CF5332500D7BEC5 /* StringUtil.m in Sources */,
 				2C63F6351CF5332500D7BEC5 /* UIButton+UIButtonImageWithLable.m in Sources */,
 				2C63F6461CF5348B00D7BEC5 /* SKAppDelegate.m in Sources */,
-				2C63F62A1CF5332500D7BEC5 /* SKLabel.m in Sources */,
 				2C63F64E1CF5370D00D7BEC5 /* NSString+LabelWidthAndHeight.m in Sources */,
 				2C63F6361CF5332500D7BEC5 /* UIColor+Extension.m in Sources */,
 				2C63F62E1CF5332500D7BEC5 /* SKJSONStrToDict.m in Sources */,
+				2C63F6591CF5779000D7BEC5 /* SKButton.m in Sources */,
 				2C63F6391CF5332500D7BEC5 /* XMLDictionary.m in Sources */,
 				2C63F6331CF5332500D7BEC5 /* SKBorderView.m in Sources */,
 				2C63F6271CF5332500D7BEC5 /* NSDictionary+JSON.m in Sources */,
@@ -519,7 +519,7 @@
 				2C63F6281CF5332500D7BEC5 /* NSString+JSONCategories.m in Sources */,
 				2C63F62D1CF5332500D7BEC5 /* BottomActionPopview.m in Sources */,
 				2C63F6301CF5332500D7BEC5 /* TimeUtil.m in Sources */,
-				2C63F62B1CF5332500D7BEC5 /* SKObject.m in Sources */,
+				2C63F65A1CF5779000D7BEC5 /* SKLabel.m in Sources */,
 				2C63F6381CF5332500D7BEC5 /* UILabel+AutoSizeMakeWidthORHeight.m in Sources */,
 				2C63F6421CF5345900D7BEC5 /* RootVC.m in Sources */,
 				2C63F6511CF5372E00D7BEC5 /* NSAttributedString+LabelWidthAndHeight.m in Sources */,
