@@ -33,6 +33,7 @@
 		2C63F6591CF5779000D7BEC5 /* SKButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F6541CF5779000D7BEC5 /* SKButton.m */; };
 		2C63F65A1CF5779000D7BEC5 /* SKLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F6561CF5779000D7BEC5 /* SKLabel.m */; };
 		2C63F65B1CF5779000D7BEC5 /* SKObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F6581CF5779000D7BEC5 /* SKObject.m */; };
+		2CF4AD551D211D4E00EF9A32 /* NSString+getIPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF4AD541D211D4E00EF9A32 /* NSString+getIPAddress.m */; };
 		D7989B461B5E7D8500BCFC8D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7989B451B5E7D8500BCFC8D /* QuartzCore.framework */; };
 		D7B2B4461B44D32300C7BE84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B2B4451B44D32300C7BE84 /* main.m */; };
 		D7B2B44F1B44D32500C7BE84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7B2B44D1B44D32500C7BE84 /* Main.storyboard */; };
@@ -102,6 +103,8 @@
 		2C63F6561CF5779000D7BEC5 /* SKLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKLabel.m; sourceTree = "<group>"; };
 		2C63F6571CF5779000D7BEC5 /* SKObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKObject.h; sourceTree = "<group>"; };
 		2C63F6581CF5779000D7BEC5 /* SKObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKObject.m; sourceTree = "<group>"; };
+		2CF4AD531D211D4E00EF9A32 /* NSString+getIPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+getIPAddress.h"; sourceTree = "<group>"; };
+		2CF4AD541D211D4E00EF9A32 /* NSString+getIPAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+getIPAddress.m"; sourceTree = "<group>"; };
 		D7989B451B5E7D8500BCFC8D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D7B2B4401B44D32100C7BE84 /* SKProjectTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKProjectTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7B2B4441B44D32300C7BE84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -170,6 +173,8 @@
 				2C63F64D1CF5370D00D7BEC5 /* NSString+LabelWidthAndHeight.m */,
 				2C63F64F1CF5372E00D7BEC5 /* NSAttributedString+LabelWidthAndHeight.h */,
 				2C63F6501CF5372E00D7BEC5 /* NSAttributedString+LabelWidthAndHeight.m */,
+				2CF4AD531D211D4E00EF9A32 /* NSString+getIPAddress.h */,
+				2CF4AD541D211D4E00EF9A32 /* NSString+getIPAddress.m */,
 			);
 			path = "NSString+Category";
 			sourceTree = "<group>";
@@ -500,6 +505,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CF4AD551D211D4E00EF9A32 /* NSString+getIPAddress.m in Sources */,
 				2C63F65B1CF5779000D7BEC5 /* SKObject.m in Sources */,
 				2C63F6411CF5345900D7BEC5 /* SKBaseViewController.m in Sources */,
 				2C63F62C1CF5332500D7BEC5 /* BottomActionItem.m in Sources */,
