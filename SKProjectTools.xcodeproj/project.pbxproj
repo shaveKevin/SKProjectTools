@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C1ECA291D4B2BCC0053702E /* SKRuntimeProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1ECA281D4B2BCC0053702E /* SKRuntimeProperty.m */; };
 		2C63F6271CF5332500D7BEC5 /* NSDictionary+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F5F41CF5332500D7BEC5 /* NSDictionary+JSON.m */; };
 		2C63F6281CF5332500D7BEC5 /* NSString+JSONCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F5F71CF5332500D7BEC5 /* NSString+JSONCategories.m */; };
 		2C63F62C1CF5332500D7BEC5 /* BottomActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F6011CF5332500D7BEC5 /* BottomActionItem.m */; };
@@ -52,6 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C1ECA271D4B2BCC0053702E /* SKRuntimeProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKRuntimeProperty.h; sourceTree = "<group>"; };
+		2C1ECA281D4B2BCC0053702E /* SKRuntimeProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKRuntimeProperty.m; sourceTree = "<group>"; };
 		2C63F5F31CF5332500D7BEC5 /* NSDictionary+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSON.h"; sourceTree = "<group>"; };
 		2C63F5F41CF5332500D7BEC5 /* NSDictionary+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSON.m"; sourceTree = "<group>"; };
 		2C63F5F61CF5332500D7BEC5 /* NSString+JSONCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JSONCategories.h"; sourceTree = "<group>"; };
@@ -135,9 +138,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C1ECA261D4B2B8D0053702E /* SKRuntimeAttribuate */ = {
+			isa = PBXGroup;
+			children = (
+				2C1ECA271D4B2BCC0053702E /* SKRuntimeProperty.h */,
+				2C1ECA281D4B2BCC0053702E /* SKRuntimeProperty.m */,
+			);
+			path = SKRuntimeAttribuate;
+			sourceTree = "<group>";
+		};
 		2C63F5F11CF5332500D7BEC5 /* SKTools */ = {
 			isa = PBXGroup;
 			children = (
+				2C1ECA261D4B2B8D0053702E /* SKRuntimeAttribuate */,
 				2C63F6211CF5332500D7BEC5 /* UILabel+Category */,
 				2C63F61C1CF5332500D7BEC5 /* UIColor+Category */,
 				2C63F6191CF5332500D7BEC5 /* UIButton+Category */,
@@ -505,6 +518,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C1ECA291D4B2BCC0053702E /* SKRuntimeProperty.m in Sources */,
 				2CF4AD551D211D4E00EF9A32 /* NSString+getIPAddress.m in Sources */,
 				2C63F65B1CF5779000D7BEC5 /* SKObject.m in Sources */,
 				2C63F6411CF5345900D7BEC5 /* SKBaseViewController.m in Sources */,

@@ -8,7 +8,7 @@
 
 #import "RootVC.h"
 #import "SKConst.h"
-
+#import "SKRuntimeProperty.h"
 @interface RootVC ()
 @end
 
@@ -19,8 +19,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    SKRuntimeProperty *property = [SKRuntimeProperty new];
+    UILabel *label = [UILabel new];
+    label.text = @"13123";
 
-
+    NSLog(@"%@",[property getAllIvar:label]);
+    NSLog(@"%@",[property getAllProperty:label]);
 }
 
 

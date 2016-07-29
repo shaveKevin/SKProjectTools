@@ -266,7 +266,7 @@ void GetHWAddresses()
     
     NSString *IPString = [NSString stringWithFormat:@"%s",ip_names[1]];
     
-    debugLog(@"IPString si %@",IPString);
+    NSLog(@"IPString si %@",IPString);
     
     return IPString;
 }
